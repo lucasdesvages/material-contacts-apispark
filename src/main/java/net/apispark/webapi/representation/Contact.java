@@ -26,7 +26,7 @@ public class Contact implements Serializable {
         this.firstName = firstName;
         this.lastName = lastName;
         this.avatar = avatar;
-        this.gender = gender;
+        this.gender = "Male";
     }
     
     @JsonProperty(required = true)
